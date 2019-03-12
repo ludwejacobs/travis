@@ -6,8 +6,8 @@ services:
   - 
 env:
   - pipenv
-  # - FLASK=1.0.2
-  # - FLASK=0.10.1
+  - FLASK=1.0.2
+  - FLASK=0.10.1
 install:
   - pipenv install
   - pipenv install flask
